@@ -36,6 +36,9 @@ div{
     i{
         /* display: inline; */
         margin: auto;
+        opacity: 0.4;
+        position: relative;
+        right: 30px;
     }
 
 
@@ -72,7 +75,7 @@ div{
     }
 
     input[type="checkbox"]{
-        border: none;
+        margin: 0 1rem;
     }
 
     .sign-up{
@@ -87,7 +90,7 @@ div{
 
     label{
         margin: auto;
-        display: block;
+        /* display: block; */
     }
 
     .sign-up:hover{
@@ -107,4 +110,8 @@ div{
     input[type="email"],
     input[type="password"]{
         display: inline-block;
+    }
+
+    #email, #password{
+        display: block;
     }
