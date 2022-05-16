@@ -1,0 +1,110 @@
+:root{
+    --bg-color: #d7d7d7;
+    --text-color: #272d2f;
+    --outline: #ffc529;
+    --callToAction: #fe7240;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: auto;
+    /* color: var(--bg-color); */
+    background-color: var(--text-color);
+    width: 30%;
+    margin-top: 8%;
+    /* text-align: center; */
+}
+div{
+    display: flex;
+    margin: 5%;
+    opacity: 0.5;
+}
+
+    input[type="email"],
+    input[type="password"],
+    button{
+        height: 2.5rem;
+        border-color: var(--outline);
+        border-radius: 8px;
+        width: 100%;
+        padding: auto;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    i{
+        /* display: inline; */
+        margin: auto;
+    }
+
+
+
+    a{
+        color: var(--callToAction);
+    }
+
+    hr{
+        width: 50%;
+        color: var(--text-color);
+        background-color: var(--text-color);
+        margin: auto 2%;
+    }
+
+    button{
+        background: var(--callToAction);
+        width: 50%;
+        margin: 5% auto;
+        border: none;
+        cursor: pointer;
+        font-size: larger;
+        display: block;
+    }
+
+
+    .reset{
+        text-align: center;
+        font-size: x-small;
+    }
+
+    .reset-link{
+        margin-left: 15%;
+    }
+
+    input[type="checkbox"]{
+        border: none;
+    }
+
+    .sign-up{
+        text-decoration: none;
+        text-align: center;
+    }
+
+    label,p{
+        color: var(--text-color);
+        font-family: Verdana, Geneva, Tahoma, serif;
+    }
+
+    label{
+        margin: auto;
+        display: block;
+    }
+
+    .sign-up:hover{
+        font-size: larger;
+    }
+
+    .signUp{
+        text-align: center;
+    }
+
+    form{
+        background-color: var(--bg-color);
+        padding: 20%;
+        border-radius: 3%;
+    }
+
+    input[type="email"],
+    input[type="password"]{
+        display: inline-block;
+    }
